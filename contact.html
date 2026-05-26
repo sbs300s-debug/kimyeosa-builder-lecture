@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제휴문의 - 김여사코딩</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">김여사코딩</a>
+            <div class="nav-actions">
+                <ul class="nav-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="about.html">소개</a></li>
+                    <li><a href="privacy.html">개인정보</a></li>
+                </ul>
+                <a href="en/contact.html" class="language-link" hreflang="en" aria-label="View English page">EN</a>
+                <button type="button" class="theme-toggle" aria-label="다크 모드로 전환" title="다크 모드">☾</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container section">
+        <h1 class="section-title">제휴문의</h1>
+        <div class="contact-layout">
+            <section class="contact-panel">
+                <h2>함께 성장할 제안을 기다립니다</h2>
+                <p>교육 콘텐츠 협업, 광고, 강의 제안, 브랜드 제휴 등 김여사코딩과 어울리는 협업을 제안해 주세요.</p>
+                <ul class="contact-list">
+                    <li>
+                        <strong>답변 안내</strong>
+                        <span>접수 후 영업일 기준 2~3일 안에 검토합니다.</span>
+                    </li>
+                    <li>
+                        <strong>이메일</strong>
+                        <a class="read-more" href="mailto:contact@kimyeosa-coding.com">contact@kimyeosa-coding.com</a>
+                    </li>
+                    <li>
+                        <strong>제안 분야</strong>
+                        <span>콘텐츠, 광고, 강의, 커뮤니티, 브랜드 협업</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="contact-panel">
+                <h3>문의 내용 작성</h3>
+                <form class="contact-form" action="mailto:contact@kimyeosa-coding.com" method="post" enctype="text/plain">
+                    <div class="form-field">
+                        <label for="company">회사/이름</label>
+                        <input id="company" name="회사 또는 이름" type="text" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">회신 이메일</label>
+                        <input id="email" name="회신 이메일" type="email" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="type">제휴 유형</label>
+                        <select id="type" name="제휴 유형">
+                            <option>콘텐츠 협업</option>
+                            <option>광고/스폰서십</option>
+                            <option>강의/교육 제안</option>
+                            <option>기타 제휴</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">문의 내용</label>
+                        <textarea id="message" name="문의 내용" required></textarea>
+                    </div>
+                    <button class="submit-btn" type="submit">문의 보내기</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container" style="text-align: center;">
+            <p>&copy; 2026 김여사코딩. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
